@@ -42,8 +42,8 @@
 		A759B0971D83095D0007D59A /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A759B09B1D83095D0007D59A /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		A759B09D1D83095D0007D59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A759B0A61D835E130007D59A /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
-		A7CD94531D8889040014381E /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		A759B0A61D835E130007D59A /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = ../RatingControl.swift; sourceTree = "<group>"; };
+		A7CD94531D8889040014381E /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Meal.swift; path = ../Meal.swift; sourceTree = "<group>"; };
 		A7CD94561D89A1450014381E /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		A7CD94591D89C1060014381E /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,8 +69,6 @@
 		A759B07A1D83095D0007D59A = {
 			isa = PBXGroup;
 			children = (
-				A7CD94531D8889040014381E /* Meal.swift */,
-				A759B0A61D835E130007D59A /* RatingControl.swift */,
 				A759B0851D83095D0007D59A /* FoodTracker */,
 				A759B09A1D83095D0007D59A /* FoodTrackerTests */,
 				A759B0841D83095D0007D59A /* Products */,
@@ -89,6 +87,8 @@
 		A759B0851D83095D0007D59A /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
+				A7CD94531D8889040014381E /* Meal.swift */,
+				A759B0A61D835E130007D59A /* RatingControl.swift */,
 				A759B0861D83095D0007D59A /* AppDelegate.swift */,
 				A759B0881D83095D0007D59A /* MealViewControler.swift */,
 				A759B08A1D83095D0007D59A /* Main.storyboard */,
